@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Curl</string>
+	<key>ordering</key>
+	<array>
+		<string>AE151470-1263-4C8A-A3CD-D31CD54EA640</string>
+	</array>
+	<key>uuid</key>
+	<string>99F2B029-9394-490A-B40E-137C432EC9AE</string>
+</dict>
+</plist>

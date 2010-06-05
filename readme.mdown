@@ -1,0 +1,21 @@
+## What is it
+
+Simple Textmate Command to fetch a file from the interwebs and place it neatly in your projects root directory. 
+
+## Installation
+
+Go to your textmate bundles directory and clone this bad boy in
+
+## How to use
+
+`^ ⌥ ⌘W` will pop a dialog box up, place the url in text field and press enter. 
+
+The file will download and your project drawer (or project+ drawer) will refresh!
+
+
+## Possible Todo
+
+- Add progress bar for larger files
+- Possibly download to the current open file path (maybe add a checkbox or something)
+- Maybe add some sort of output if the url can't download for some reason (404, 500, etc.)
+

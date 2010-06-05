@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beforeRunningCommand</key>
+	<string>nop</string>
+	<key>command</key>
+	<string>res=$(CocoaDialog inputbox --title "I Need Input" --informative-text "Enter the url of a file to curl:" --button1 "Okay" --button2 "Cancel")
+[[ $(head -n1 &lt;&lt;&lt;"$res") == "2" ]] &amp;&amp; exit_discard
+res=$(tail -n1 &lt;&lt;&lt;"$res")
+$(curl -O "$res" "$TM_PROJECT_DIRECTORY"/ )
+rescan_project</string>
+	<key>input</key>
+	<string>selection</string>
+	<key>keyEquivalent</key>
+	<string>^~@w</string>
+	<key>name</key>
+	<string>Get file from interwebs</string>
+	<key>output</key>
+	<string>discard</string>
+	<key>uuid</key>
+	<string>AE151470-1263-4C8A-A3CD-D31CD54EA640</string>
+</dict>
+</plist>
